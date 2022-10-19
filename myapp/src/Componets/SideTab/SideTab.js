@@ -1,5 +1,6 @@
 import React from "react";
 import "./SideTab.css";
+import images from '../../Assets/images.jpg'
 
 
 
@@ -11,7 +12,7 @@ const SideTab = () => {
     <aside className="sideTabSection">
       <div className="LogoSection">
         <div className="logocontent">
-          <img src="" alt="logo" />
+          <img className="imageLogo" src={images} alt="logo" />
           <h1 className="heading">FILMY PRO</h1>
         </div>
         <hr />

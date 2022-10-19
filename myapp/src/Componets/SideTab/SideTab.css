@@ -62,3 +62,9 @@ hr{
     align-items: center;
     
 }
+.imageLogo{
+    height: 80px;
+    margin-top: 10px;
+    background-color: transparent;
+    opacity: 0.9;
+}
