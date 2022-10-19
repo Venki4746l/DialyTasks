@@ -1,0 +1,107 @@
+.AddProductionSection {
+  width: 85vw;
+  height: 100vh;
+  box-sizing: border-box;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.AddProductionSection h3 {
+  color: black;
+  padding: 50px;
+}
+
+.imageSection {
+    
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+    
+    margin-right: 80px;
+}
+
+.fromSection {
+  width: 85%;
+  align-self: flex-start;
+  margin-left: 100px;
+  margin-top: 100px;
+  
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.filesSection {
+  background-color: blue;
+  height: 200px;
+  width: 150px;
+  border-radius: 20px;
+  color: white;
+  margin-right: 50px;
+  
+}
+
+.productionSection{
+    display: flex;
+    
+    justify-content:flex-start;
+}
+
+.inputsSection{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.inputsSection label{
+    color: black;
+    font-size:25px ;
+    font-weight: bold;
+
+}
+.inputback{
+    background-color: rgb(242, 243, 240);
+    height: 60px;
+    width: 350px
+}
+.inputback input{
+    width:300px ;
+    margin: 10px;
+    height: 40px;
+    background-color: rgb(183, 203, 209);
+    border-width:0px ;
+    border-radius: 5px;
+    font-size: 25px;
+    color: black;
+    font-weight: 400;
+}
+.inputback select{
+    width:300px ;
+    margin: 10px;
+    height: 40px;
+    background-color: rgb(183, 203, 209);
+    border-width:0px ;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.buttonSubmit{
+    align-items: flex-end;
+    align-self: center;
+    background-color: rgb(5, 5, 109);
+    width: 120px;
+    height: 36px;
+    color: white;
+    font-size: 20px;
+    border-width: 0px;
+    margin-left: 80px;
+    
+
+}
+
+.errorMessage{
+  color: red;
+  font-size: 10px;
+  
+}
