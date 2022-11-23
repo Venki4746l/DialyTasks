@@ -2,12 +2,10 @@ import React from "react";
 import "./Item.css";
 import { useState, useEffect } from "react";
 
-const ItemDetails = ({ info,updateqty }) => {
-  let { name, price, qty } = info;
-  const [data, setData] = useState(info);
-  
+const ItemDetails = ({ info, updateqty }) => {
+  let { id, name, price, qty } = info;
   const [itemCount, setItemCount] = useState(qty);
-
+  
   const incCount = () => {
     setItemCount(itemCount + 1);
   };
@@ -19,9 +17,7 @@ const ItemDetails = ({ info,updateqty }) => {
   };
 
   useEffect(() => {
-    const objec = { ...data, qty: itemCount };
-    setData(objec);
-    updateqty(objec,itemCount)
+    updateqty(id, itemCount);
   }, [itemCount]);
 
   return (

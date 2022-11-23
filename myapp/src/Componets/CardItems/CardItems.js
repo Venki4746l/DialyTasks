@@ -10,12 +10,12 @@ const CardItems = () => {
     { id: 3, name: "colgate", price: 30, qty: 1 },
   ];
   const [cardDetails, setcardDetails] = useState(intialdata);
-  const updataQuanity = (updateInfo, count) => {
-    const newState = cardDetails.map((oject) => {
-      if (updateInfo.id === oject.id) {
-        return { ...oject, qty: count };
+  const updataQuanity = (id, count) => {
+    const newState = cardDetails.map((object) => {
+      if (id === object.id) {
+        return { ...object, qty: count };
       }
-      return oject;
+      return object;
     });
     setcardDetails(newState);
   };
@@ -34,6 +34,5 @@ const CardItems = () => {
     </center>
   );
 };
-  
 
-export default  CardItems ;
+export default CardItems;
