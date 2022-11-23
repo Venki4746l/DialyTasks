@@ -1,20 +1,11 @@
 import React from "react";
-import './App.css'
-//import AddNewProduction from "./Componets/AddNewProduction";
-import SideTab from "./Componets/SideTab/SideTab";
-import Display from './Componets/Display/Display';
+import "./App.css";
+//import DisplayStore from "./Componets/Store/DisplayStore";
+import CardItems from './Componets/CardItems/CardItems';
+
 
 const App = () => {
-  return (
-    <div className="mainviwers">
-      <SideTab />
-      <Display/> 
-      
-      
-      
-     
-    </div>
-  );
+  return <div><CardItems/> </div>;
 };
 
 export default App;

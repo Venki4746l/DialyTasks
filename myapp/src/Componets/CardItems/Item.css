@@ -1,0 +1,28 @@
+.itemContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:40%
+
+}
+.quantity{
+    height: 32px;
+    background-color: lightblue;
+    font-size: 28px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightsalmon;
+    box-sizing: border-box;
+
+}
+.inc{
+background-color: rgb(111, 184, 83);
+font-size: 28px;
+width: 28px;
+}
+.dec{
+    background-color: rgb(231, 23, 23);
+    font-size: 28px;
+    width: 28px;
+}
