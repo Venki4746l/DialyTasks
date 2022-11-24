@@ -27,7 +27,7 @@ const SideTab = () => {
       </div>
       <button className="AboutPage">
         <AiOutlineQuestionCircle className="icon" />
-          About us
+          About u
 
       </button>
       
