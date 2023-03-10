@@ -1,0 +1,75 @@
+.Modal_pageLogin {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(228, 221, 221);
+  margin: auto;
+  overflow: auto;
+  padding-top: 100px;
+}
+.modal_content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 90%;
+}
+.LoginSection {
+  width: 50%;
+  border: 1px solid red;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.closeButton {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  align-self: flex-start;
+}
+.closeButton:hover,
+.closeButton:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.LoginFromSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+  
+}
+
+
+.fromInputEl{
+width: 250px;
+height: 37px;
+margin: 5px;
+}
+
+.LoginButton{
+  width: 65px;
+  height: 33px;
+  font-size: 20px;
+  background-color: rgb(75, 75, 247);
+  border-width: 0px;
+  color: white;
+  border-radius: 5px;
+
+}
+
+.checkboxContainer{
+  border: 1px solid blue;
+  padding: 10px;
+}
+.checkboxContainer div label{
+  font-size: 15px;
+}
+.checkboxContainer a{
+  font-size: 20px;
+}
